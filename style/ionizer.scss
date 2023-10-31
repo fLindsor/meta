@@ -1,0 +1,212 @@
+@import "main";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-main;
+  width: 48px * 10;
+  padding: 10px;
+
+  &-container {
+    width: full;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &-matrica {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    &-secondary {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-left: 24px;
+    }
+  }
+}
+
+.secondary-matrica {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: full;
+  align-items: center;
+  justify-content: space-between;
+
+  &-electricity {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.line-vertical-full {
+  border-left: 1.5px solid $border-main;
+  height: 100%;
+}
+.matrica-item-medium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+///////////////// LINES //////////////////
+
+.main-matrica-secondary-line {
+  position: relative;
+}
+.main-matrica-secondary-line::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1.5px solid $border-main;
+  top: 50%;
+  right: 0;
+  width: 40px;
+  margin-right: 6px;
+}
+
+.hr-line {
+  position: relative;
+}
+.hr-line::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1.5px solid $border-main;
+  top: 50%;
+  right: 0;
+  width: 48px;
+}
+
+.hr-line-with-margin-left {
+  position: relative;
+}
+.hr-line-with-margin-left::after {
+  @extend .hr-line::after;
+  margin-left: 6px;
+  right: 0;
+  width: 40px;
+  //   transform: translateY(-50%);
+}
+.hr-line-with-margin-right {
+  position: relative;
+}
+.hr-line-with-margin-right::after {
+  @extend .hr-line::after;
+  margin-right: 6px;
+  left: 0;
+  width: 40px;
+  //   transform: translateY(-50%);
+}
+
+.vr-line {
+  position: relative;
+}
+.vr-line::after {
+  content: "";
+  position: absolute;
+  border-left: 1.5px solid $border-main;
+  left: 50%;
+}
+
+.vr-line-with-margin-top {
+  @extend .vr-line;
+}
+.vr-line-with-margin-top::after {
+  @extend .vr-line::after;
+  margin-top: 6px;
+  bottom: 0;
+  height: 40px;
+  //   transform: translateY(-50%);
+}
+.vr-line-with-margin-bottom {
+  @extend .vr-line;
+}
+.vr-line-with-margin-bottom::after {
+  @extend .vr-line::after;
+  margin-bottom: 6px;
+  top: 0;
+  height: 40px;
+  //   transform: translateY(-50%);
+}
+
+.left-bottom-lines {
+  position: relative;
+}
+.left-bottom-lines::after,
+.left-bottom-lines::before {
+  content: "";
+  position: absolute;
+}
+
+.left-bottom-lines::before {
+  width: 50%; /* Half the width of the div */
+  top: 50%; /* Position it at the vertical center of the div */
+  left: 0; /* Start from the left edge */
+  border-bottom: 1.5px solid $border-main;
+}
+
+.left-bottom-lines::after {
+  height: 24px; /* Half the height of the div */
+  top: 50%; /* Start from the top edge */
+  left: 50%; /* Position it at the horizontal center of the div */
+  border-left: 1.5px solid $border-main;
+}
+
+.right-bottom-lines {
+  position: relative;
+}
+.right-bottom-lines::after,
+.right-bottom-lines::before {
+  content: "";
+  position: absolute;
+}
+
+.right-bottom-lines::before {
+  width: 50%; /* Half the width of the div */
+  top: 50%; /* Position it at the vertical center of the div */
+  left: 0; /* Start from the left edge */
+  border-bottom: 1.5px solid $border-main;
+}
+
+.right-bottom-lines::after {
+  height: 25px; /* Half the height of the div */
+  bottom: 48%; /* Start from the top edge */
+  left: 50%; /* Position it at the horizontal center of the div */
+  border-left: 1.5px solid $border-main;
+}
+
+.left-center-lines {
+  position: relative;
+}
+.left-center-lines::after,
+.left-center-lines::before {
+  content: "";
+  position: absolute;
+}
+
+.left-center-lines::before {
+  width: 50%; /* Half the width of the div */
+  top: 50%; /* Position it at the vertical center of the div */
+  left: 0; /* Start from the left edge */
+  border-bottom: 1.5px solid $border-main;
+}
+
+.left-center-lines::after {
+  height: 48px; /* Half the height of the div */
+  bottom: 0; /* Start from the top edge */
+  left: 50%; /* Position it at the horizontal center of the div */
+  border-left: 1.5px solid $border-main;
+}
+
+//////////////////////////////////////////////////////

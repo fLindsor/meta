@@ -1,0 +1,45 @@
+@import "main";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-main;
+  width: 48px * 10;
+  padding: 10px;
+}
+.parent-martica {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.matrica {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-item {
+  width: 48px * 3;
+  height: full;
+  background-color: $bg-secondary;
+  border: 1px solid $border-main;
+}
+
+.hr-line {
+  margin-right: 8px;
+  border: 1.5px solid $border-main;
+  width: 30px;
+  height: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

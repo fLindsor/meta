@@ -1,0 +1,140 @@
+.matrica-item, .matrica-item-medium, .matrica-item-large, .matrica-item-rounded {
+  background-color: #1e2952;
+  border: 1px solid #3e4c77;
+  width: 46px;
+  height: 46px;
+}
+
+.matrica-item-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.matrica-item-large {
+  width: 58px;
+  height: 58px;
+}
+
+.matrica-item-rounded {
+  border-radius: 50%;
+}
+
+.text-primary {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.text-percentage {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.225rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.btn-close {
+  min-width: 144px;
+  height: 48px;
+  color: #ca2325;
+  background-color: #171f3e;
+  border: 2px solid #ca2325;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.btn-open {
+  min-width: 144px;
+  height: 48px;
+  color: white;
+  background-color: #3c91f1;
+  border: 2px solid #3c91f1;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.button-group {
+  margin-top: 30px;
+  width: full;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #171f3e;
+  width: 480px;
+  padding: 10px;
+}
+
+.parent-martica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.matrica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero-item {
+  width: 144px;
+  height: full;
+  background-color: #1e2952;
+  border: 1px solid #3e4c77;
+}
+
+.hr-line {
+  margin-right: 8px;
+  border: 1.5px solid #3e4c77;
+  width: 30px;
+  height: 0;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2px;
+}
+
+.child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=transplantator.css.map */

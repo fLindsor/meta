@@ -1,0 +1,66 @@
+.matrica-item, .matrica-item-medium, .matrica-item-large, .matrica-item-rounded {
+  background-color: #1e2952;
+  border: 1px solid #3e4c77;
+  width: 46px;
+  height: 46px;
+}
+
+.matrica-item-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.matrica-item-large {
+  width: 58px;
+  height: 58px;
+}
+
+.matrica-item-rounded {
+  border-radius: 50%;
+}
+
+.text-primary {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.text-percentage {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.225rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.btn-close {
+  min-width: 144px;
+  height: 48px;
+  color: #ca2325;
+  background-color: #171f3e;
+  border: 2px solid #ca2325;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.btn-open {
+  min-width: 144px;
+  height: 48px;
+  color: white;
+  background-color: #3c91f1;
+  border: 2px solid #3c91f1;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.button-group {
+  margin-top: 30px;
+  width: full;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+/*# sourceMappingURL=main.css.map */

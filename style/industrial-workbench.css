@@ -1,0 +1,237 @@
+.matrica-item, .matrica-item-medium, .matrica-item-large, .matrica-item-rounded {
+  background-color: #1e2952;
+  border: 1px solid #3e4c77;
+  width: 46px;
+  height: 46px;
+}
+
+.matrica-item-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.matrica-item-large {
+  width: 58px;
+  height: 58px;
+}
+
+.matrica-item-rounded {
+  border-radius: 50%;
+}
+
+.text-primary {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.text-percentage {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.225rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.btn-close {
+  min-width: 144px;
+  height: 48px;
+  color: #ca2325;
+  background-color: #171f3e;
+  border: 2px solid #ca2325;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.btn-open {
+  min-width: 144px;
+  height: 48px;
+  color: white;
+  background-color: #3c91f1;
+  border: 2px solid #3c91f1;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.button-group {
+  margin-top: 30px;
+  width: full;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #171f3e;
+  width: 480px;
+  padding: 10px;
+}
+
+.main-container {
+  width: full;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-matrica {
+  width: full;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 24px;
+}
+
+.main-matrica-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-matrica-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+}
+
+.hr-line-horizontal {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-left: 1.5px solid #3e4c77;
+  height: 30px;
+  width: 0;
+}
+
+.parent-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2px;
+  max-width: 165px;
+}
+
+.martica-lines {
+  position: relative;
+  border-left: 1.5px solid #3e4c77;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+
+.martica-lines::after {
+  content: "";
+  position: absolute;
+  background-color: #3e4c77;
+}
+
+.martica-lines::after {
+  width: 180px;
+  /* Half the width of the div */
+  height: 1.5px;
+  /* The thickness of the horizontal line */
+  left: 50;
+  /* Start from the left edge */
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.secondary-matrica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6px;
+  height: full;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.secondary-matrica-electricity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.line-vertical-full {
+  border-left: 1.5px solid #3e4c77;
+  height: 100%;
+}
+
+.matrica-item-medium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=industrial-workbench.css.map */

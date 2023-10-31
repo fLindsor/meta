@@ -1,0 +1,345 @@
+.matrica-item, .matrica-item-medium, .matrica-item-large, .matrica-item-rounded {
+  background-color: #1e2952;
+  border: 1px solid #3e4c77;
+  width: 46px;
+  height: 46px;
+}
+
+.matrica-item-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.matrica-item-large {
+  width: 58px;
+  height: 58px;
+}
+
+.matrica-item-rounded {
+  border-radius: 50%;
+}
+
+.text-primary {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.text-percentage {
+  color: #7c9cbf !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.225rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.btn-close {
+  min-width: 144px;
+  height: 48px;
+  color: #ca2325;
+  background-color: #171f3e;
+  border: 2px solid #ca2325;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.btn-open {
+  min-width: 144px;
+  height: 48px;
+  color: white;
+  background-color: #3c91f1;
+  border: 2px solid #3c91f1;
+  border-radius: 0.375rem;
+  font-size: 1.3rem;
+}
+
+.button-group {
+  margin-top: 30px;
+  width: full;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #171f3e;
+  width: 480px;
+  padding: 10px;
+}
+
+.main-container {
+  width: full;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-matrica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-matrica-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0, 1fr))[5];
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.main-matrica-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 24px;
+}
+
+.secondary-matrica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6px;
+  height: full;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.secondary-matrica-electricity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.line-vertical-full {
+  border-left: 1.5px solid #3e4c77;
+  height: 100%;
+}
+
+.matrica-item-medium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-matrica-secondary-line {
+  position: relative;
+}
+
+.main-matrica-secondary-line::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1.5px solid #3e4c77;
+  top: 50%;
+  right: 0;
+  width: 40px;
+  margin-right: 6px;
+}
+
+.hr-line {
+  position: relative;
+}
+
+.hr-line::after, .hr-line-with-margin-left::after, .hr-line-with-margin-right::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1.5px solid #3e4c77;
+  top: 50%;
+  right: 0;
+  width: 48px;
+}
+
+.hr-line-with-margin-left {
+  position: relative;
+}
+
+.hr-line-with-margin-left::after {
+  margin-left: 6px;
+  right: 0;
+  width: 40px;
+}
+
+.hr-line-with-margin-right {
+  position: relative;
+}
+
+.hr-line-with-margin-right::after {
+  margin-right: 6px;
+  left: 0;
+  width: 40px;
+}
+
+.vr-line, .vr-line-with-margin-top, .vr-line-with-margin-bottom {
+  position: relative;
+}
+
+.vr-line::after, .vr-line-with-margin-top::after, .vr-line-with-margin-bottom::after {
+  content: "";
+  position: absolute;
+  border-left: 1.5px solid #3e4c77;
+  left: 50%;
+}
+
+.vr-line-with-margin-top::after {
+  margin-top: 6px;
+  bottom: 0;
+  height: 40px;
+}
+
+.vr-line-with-margin-bottom::after {
+  margin-bottom: 6px;
+  top: 0;
+  height: 40px;
+}
+
+.left-bottom-lines {
+  position: relative;
+}
+
+.left-bottom-lines::after,
+.left-bottom-lines::before {
+  content: "";
+  position: absolute;
+}
+
+.left-bottom-lines::before {
+  width: 50%;
+  /* Half the width of the div */
+  top: 50%;
+  /* Position it at the vertical center of the div */
+  left: 0;
+  /* Start from the left edge */
+  border-bottom: 1.5px solid #3e4c77;
+}
+
+.left-bottom-lines::after {
+  height: 24px;
+  /* Half the height of the div */
+  top: 50%;
+  /* Start from the top edge */
+  left: 50%;
+  /* Position it at the horizontal center of the div */
+  border-left: 1.5px solid #3e4c77;
+}
+
+.right-bottom-lines {
+  position: relative;
+}
+
+.right-bottom-lines::after,
+.right-bottom-lines::before {
+  content: "";
+  position: absolute;
+}
+
+.right-bottom-lines::before {
+  width: 50%;
+  /* Half the width of the div */
+  top: 50%;
+  /* Position it at the vertical center of the div */
+  left: 0;
+  /* Start from the left edge */
+  border-bottom: 1.5px solid #3e4c77;
+}
+
+.right-bottom-lines::after {
+  height: 25px;
+  /* Half the height of the div */
+  bottom: 48%;
+  /* Start from the top edge */
+  left: 50%;
+  /* Position it at the horizontal center of the div */
+  border-left: 1.5px solid #3e4c77;
+}
+
+.left-center-lines {
+  position: relative;
+}
+
+.left-center-lines::after,
+.left-center-lines::before {
+  content: "";
+  position: absolute;
+}
+
+.left-center-lines::before {
+  width: 50%;
+  /* Half the width of the div */
+  top: 50%;
+  /* Position it at the vertical center of the div */
+  left: 0;
+  /* Start from the left edge */
+  border-bottom: 1.5px solid #3e4c77;
+}
+
+.left-center-lines::after {
+  height: 48px;
+  /* Half the height of the div */
+  bottom: 0;
+  /* Start from the top edge */
+  left: 50%;
+  /* Position it at the horizontal center of the div */
+  border-left: 1.5px solid #3e4c77;
+}
+/*# sourceMappingURL=ionizer.css.map */
